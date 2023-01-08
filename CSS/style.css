@@ -1,0 +1,147 @@
+html {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica", sans-serif;
+  }
+
+  body {
+    background-color: #cfd9f7;
+    text-align: center;
+    color: #525252;
+    overflow: hidden;
+    background-image: url("../Images/milad-fakurian-eRbgsJ0Ec0o-unsplash@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header {
+    text-align: center;
+    max-width: 20rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+    color: #525252;
+    margin: 0;
+    padding: 2rem 0;
+    border-radius: 2rem;
+    padding: 1rem;
+    background: rgba(127, 154, 235, 0.86);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(127, 154, 235, 0.3);
+  }
+
+  
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+  }
+
+  .country-container {
+    width: 80%;
+    max-width: 35rem;
+    padding: 4rem 3rem;
+    border-radius: 2rem;
+    position: absolute;
+    background: rgba(169, 181, 217, 0.6);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(169, 181, 217, 0.3);
+  }
+
+  .country-container input {
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    background-color: rgba(189, 189, 190, 0.666);
+    color: #525252;
+    padding-left: 1rem;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15rem;
+  } 
+
+  .intro-headers {
+    background-color: #a9b5d9;
+    max-width: 30rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    background: rgba(169, 181, 217, 0.6);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(169, 181, 217, 0.3);
+  }
+
+.search {
+  display: grid;
+  grid-template-columns: 5.5fr 2fr;
+  gap: 1.5rem;
+}
+
+.search button {
+    background-color: #7f9aeb;
+    color: #525252;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.search button:hover {
+   filter: brightness(1.1);
+   transition: 0.3s ease-in-out;
+}
+
+/* result conatiner */
+
+#result {
+    margin-top: 1.25em;
+  }
+  .country-container .flag-img {
+    display: block;
+    max-width: 15rem;
+    margin: 0 auto;
+    border-radius: 2rem;
+  }
+  .country-container h2 {
+    font-weight: 600;
+    color: #575757;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8em;
+  }
+  .data-wrapper {
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+  }
+  .country-container h4 {
+    display: inline;
+    font-weight: 600;
+    color: #525252;
+  }
+  .country-container span {
+    color: #5d6274;
+  }
+
+footer {
+    margin-top: 30rem;
+}
