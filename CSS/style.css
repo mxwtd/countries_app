@@ -11,7 +11,7 @@ html {
     text-align: center;
     color: #525252;
     overflow: hidden;
-    background-image: url("../Images/milad-fakurian-eRbgsJ0Ec0o-unsplash@2x.png");
+    background-image: url("../Images/milad-fakurian-eRbgsJ0Ec20o-unsplash@2x-2().png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -31,7 +31,7 @@ html {
     padding: 2rem 0;
     border-radius: 2rem;
     padding: 1rem;
-    background: rgba(127, 154, 235, 0.86);
+    background: rgba(127, 154, 235, 0.46);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -64,9 +64,16 @@ html {
     border: none;
     border-radius: 0.5rem;
     font-size: 1.5rem;
-    background-color: rgba(189, 189, 190, 0.666);
+    background-color: rgba(141, 141, 161, 0.4);
     color: #525252;
     padding-left: 1rem;
+  }
+
+  ::placeholder {
+    color: #525252;
+    font-size: 1.3rem;
+    font-weight: 500;
+    opacity: 0.8;
   }
 
   .intro {
@@ -143,5 +150,30 @@ html {
   }
 
 footer {
-    margin-top: 30rem;
+    position: absolute;
+    padding: 0;
+    bottom: 0;
+    margin-bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer p {
+    font-size: 0.9rem;
+    padding: 0.8rem;
+    max-width: 20rem;
+    color: #525252;
+    margin: 0;
+    border-radius: 1rem;
+    background: rgba(169, 181, 217, 0.6);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(169, 181, 217, 0.3);
+}
+
+footer p span {
+  font-weight: 900;
+  font-size: 1rem;
+  font-style: italic;
 }
