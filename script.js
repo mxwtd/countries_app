@@ -1,5 +1,6 @@
 let searchBtn = document.getElementById("search-button");
 let countryInp = document.getElementById("country-input");
+
 searchBtn.addEventListener("click", () => {
   document.getElementById("intro").style.display="none";
   let countryName = countryInp.value;
@@ -57,14 +58,10 @@ searchBtn.addEventListener("click", () => {
     });
 });
 
-// Get the input field
 const input = document.getElementById("country-input");
-
-// Execute a function when the user presses a key on the keyboard
 input.addEventListener("keypress", function(event) {
-  // If the user presses the "Enter" key on the keyboard
   if (event.key === "Enter") {
-    // Trigger the button element with a click
     document.getElementById("search-button").click();
   }
 });
+

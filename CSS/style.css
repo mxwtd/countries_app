@@ -11,7 +11,7 @@ html {
     text-align: center;
     color: #525252;
     overflow: hidden;
-    background-image: url("../Images/milad-fakurian-eRbgsJ0Ec20o-unsplash@2x-2().png");
+    background-image: url("../Images/milad-fakurian-eRbgsJ0Ec20o-unsplash@2x-2(EXTENDED)@2x.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -117,7 +117,7 @@ html {
    transition: 0.3s ease-in-out;
 }
 
-/* result conatiner */
+/* result container */
 
 #result {
     margin-top: 1.25em;
@@ -176,4 +176,73 @@ footer p span {
   font-weight: 900;
   font-size: 1rem;
   font-style: italic;
+}
+
+@media only screen and (max-width: 500px) {
+
+  body {
+    background-color: #525252;
+  }
+  
+  h1 {
+    max-width: 60%;
+    font-size: 2.5rem;
+    display: inline-block;
+    align-items: center;
+  }
+  .grid-container {
+    margin-top: 2rem;
+  }
+  .country-container {
+    width: 60%;
+    max-width: 35rem;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+    position: absolute;
+  }
+  .country-container input {
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.intro-headers {
+  max-width: 13rem;
+  margin-top: -7.3rem;
+  font-size: 0.8rem;
+}
+
+::placeholder {
+  font-size: 0;
+
+}
+
+#result {
+  margin-bottom: -2rem;
+}
+
+.search button {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.country-container .flag-img {
+  max-width: 8rem;
+  max-height: 6rem;
+  border-radius: 0.6rem;
+}
+
+.country-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+    position: absolute;
+    padding: 0;
+    bottom: 0;
+    margin-bottom: -1rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
