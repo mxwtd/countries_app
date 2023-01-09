@@ -187,21 +187,19 @@ footer p span {
   
   h1 {
     max-width: 50%;
-    font-size: 2.5rem;
     display: inline-block;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .grid-container {
     margin-top: 2rem;
   }
   .country-container {
-    width: 50%;
+    width: 60%;
     max-width: 35rem;
     padding: 2rem 1rem;
     border-radius: 2rem;
     position: absolute;
-    margin-top: 1rem;
   }
   .country-container input {
     width: 90%;
@@ -211,9 +209,9 @@ footer p span {
 }
 
 .intro-headers {
-  max-width: 13rem;
+  max-width: 18rem;
   margin-top: -7.3rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 ::placeholder {
@@ -231,16 +229,27 @@ footer p span {
 }
 
 .country-container .flag-img {
-  max-width: 8rem;
-  max-height: 6rem;
+  max-width: 6rem;
+  max-height: 4rem;
   border-radius: 0.6rem;
 }
 
 .country-container h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
+.data-wrapper {
+  margin-bottom: 1em;
+  letter-spacing: 0.3px;
+  font-size: 0.8rem;
+}
+
+.country-container h4 {
+  display: inline;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
 footer {
     visibility: hidden;
 }
