@@ -11,7 +11,7 @@ html {
     text-align: center;
     color: #525252;
     overflow: hidden;
-    background-image: url("../Images/milad-fakurian-eRbgsJ0Ec20o-unsplash@2x-2(EXTENDED)@2x.png");
+    background-image: url("../Images/stacked-waves-haikei (2).svg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -38,7 +38,7 @@ html {
     border: 1px solid rgba(127, 154, 235, 0.3);
   }
 
-  
+
   .grid-container {
     display: flex;
     flex-direction: column;
@@ -81,7 +81,7 @@ html {
     flex-direction: column;
     align-items: center;
     margin-top: 15rem;
-  } 
+  }
 
   .intro-headers {
     background-color: #a9b5d9;
@@ -184,7 +184,7 @@ footer p span {
     background-color: #525252;
     background-image: url("../Images/milad-fakurian-eRbgsJ0Ec20o-unsplash@2x-2(EXTENDED)@2x copy.png");
   }
-  
+
   h1 {
     max-width: 50%;
     display: inline-block;
